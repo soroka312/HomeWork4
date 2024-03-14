@@ -23,9 +23,9 @@ public class hw4 {
 
         //Задача 3
 
-        int speed = 60;
+        int speed = 70;
 
-        if (speed <= 60) {
+        if (speed < 60) {
             System.out.println("Можно ездить спокойно");
         } else {
             System.out.println("Если скорость " + speed + " придется заплатить штраф.");
@@ -76,11 +76,11 @@ public class hw4 {
 
         //Задача 6
 
-        int plase = 170;
+        int plaсe = 170;
 
-        if (plase <= 60 && plase > 0 && plase != 0) {
+        if (plaсe <= 60 && plaсe > 0) {
             System.out.println("Есть сидячее место");
-        } else if (plase >= 61 && plase <= 102) {
+        } else if (plaсe >= 61 && plaсe <= 102) {
             System.out.println("Есть стоячее место");
         } else {
             System.out.println("Вагон уже полностью заполнен");
@@ -96,7 +96,7 @@ public class hw4 {
         boolean moreThanTwo = two > one && two > three;
 
         if (moreThanOne) {
-            System.out.println("Большее чисто один.");
+            System.out.println("Большее число один.");
         } else if (moreThanTwo) {
             System.out.println("Большее число два.");
         } else {
